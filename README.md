@@ -7,7 +7,7 @@ Go to `API.swift`, then add the appropriate values to `APIProvider` in the prope
 The backend can be found at https://github.com/Chinocy/music-creator.
 
 ## Third party dependencies
-WrappingHStack: https://github.com/dkk/WrappingHStack
+WrappingHStack: https://github.com/ksemianov/WrappingHStack
 
 ## Screenshots
 ![Composition Screen](https://user-images.githubusercontent.com/21185018/229228072-c447c4ba-efe1-49d7-aa03-06058adb8e62.png)
