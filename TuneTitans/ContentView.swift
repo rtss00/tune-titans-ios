@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var songConfig: SongConfig?
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if let songConfig {
+            let viewModel = ReviewScreenViewModel(songConfig: songConfig) {
+                set(config: nil)
+            }
+            ReviewScreen(viewModel: viewModel)
+        } else {
+            let viewModel = CompositingScreenViewModel { config in
+                set(config: config)
+            }
+            CompositingScreen(viewModel: viewModel)
         }
-        .padding()
+    }
+
+    private func set(config: SongConfig?) {
+        withAnimation(.spring()) {
+            self.songConfig = config
+        }
     }
 }
 

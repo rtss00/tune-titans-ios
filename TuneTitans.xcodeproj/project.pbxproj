@@ -7,18 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91BD45429D35876003201CF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD45329D35876003201CF /* API.swift */; };
+		C91BD45829D35E68003201CF /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD45729D35E68003201CF /* Song.swift */; };
+		C91BD45B29D36F94003201CF /* SongConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD45A29D36F94003201CF /* SongConfig.swift */; };
+		C91BD45D29D36FA8003201CF /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD45C29D36FA8003201CF /* NetworkProvider.swift */; };
+		C91BD45F29D4AA9A003201CF /* AvailableParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD45E29D4AA9A003201CF /* AvailableParams.swift */; };
+		C91BD46129D4AD7B003201CF /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD46029D4AD7B003201CF /* DataConvertible.swift */; };
+		C91BD46629D4AEF1003201CF /* CompositingScreenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD46529D4AEF1003201CF /* CompositingScreenData.swift */; };
+		C91BD46829D4AFD7003201CF /* CompositingScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD46729D4AFD7003201CF /* CompositingScreenViewModel.swift */; };
+		C91BD46A29D4B193003201CF /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD46929D4B193003201CF /* Empty.swift */; };
+		C91BD47029D50F2D003201CF /* ReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD46F29D50F2D003201CF /* ReviewScreen.swift */; };
+		C91BD47329D50F87003201CF /* ReviewScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD47229D50F87003201CF /* ReviewScreenViewModel.swift */; };
+		C91BD47529D51925003201CF /* CompositionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BD47429D51925003201CF /* CompositionOption.swift */; };
+		C9669A5829CCD63600953C16 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9669A5729CCD63600953C16 /* Constant.swift */; };
+		C9669A5A29CCE1CB00953C16 /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9669A5929CCE1CB00953C16 /* AttributeCell.swift */; };
 		C98C51C729CC78DE00CC15CD /* TuneTitansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C51C629CC78DE00CC15CD /* TuneTitansApp.swift */; };
 		C98C51C929CC78DE00CC15CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C51C829CC78DE00CC15CD /* ContentView.swift */; };
 		C98C51CB29CC78DF00CC15CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98C51CA29CC78DF00CC15CD /* Assets.xcassets */; };
 		C98C51CE29CC78DF00CC15CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98C51CD29CC78DF00CC15CD /* Preview Assets.xcassets */; };
+		C98C51D629CC79E100CC15CD /* CompositingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C51D529CC79E100CC15CD /* CompositingScreen.swift */; };
+		C98C51D829CC79F900CC15CD /* CompositionConfigurationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C51D729CC79F900CC15CD /* CompositionConfigurationCell.swift */; };
+		C98C51DB29CC7B1E00CC15CD /* WrappingHStack in Frameworks */ = {isa = PBXBuildFile; productRef = C98C51DA29CC7B1E00CC15CD /* WrappingHStack */; };
+		C98C51DD29CC867900CC15CD /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C51DC29CC867900CC15CD /* GradientBackground.swift */; };
+		C993628829D5DA7600D99946 /* SongResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C993628729D5DA7600D99946 /* SongResponse.swift */; };
+		C993628A29D6765900D99946 /* ParametersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C993628929D6765900D99946 /* ParametersList.swift */; };
+		C993628C29D686F300D99946 /* TTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C993628B29D686F300D99946 /* TTButton.swift */; };
+		C9BB338129D7744F008FED97 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB338029D7744F008FED97 /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C91BD45329D35876003201CF /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C91BD45729D35E68003201CF /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		C91BD45A29D36F94003201CF /* SongConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongConfig.swift; sourceTree = "<group>"; };
+		C91BD45C29D36FA8003201CF /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		C91BD45E29D4AA9A003201CF /* AvailableParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableParams.swift; sourceTree = "<group>"; };
+		C91BD46029D4AD7B003201CF /* DataConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
+		C91BD46529D4AEF1003201CF /* CompositingScreenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositingScreenData.swift; sourceTree = "<group>"; };
+		C91BD46729D4AFD7003201CF /* CompositingScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositingScreenViewModel.swift; sourceTree = "<group>"; };
+		C91BD46929D4B193003201CF /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		C91BD46F29D50F2D003201CF /* ReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreen.swift; sourceTree = "<group>"; };
+		C91BD47229D50F87003201CF /* ReviewScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreenViewModel.swift; sourceTree = "<group>"; };
+		C91BD47429D51925003201CF /* CompositionOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionOption.swift; sourceTree = "<group>"; };
+		C9669A5729CCD63600953C16 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C9669A5929CCE1CB00953C16 /* AttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
 		C98C51C329CC78DE00CC15CD /* TuneTitans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneTitans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98C51C629CC78DE00CC15CD /* TuneTitansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTitansApp.swift; sourceTree = "<group>"; };
 		C98C51C829CC78DE00CC15CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C98C51CA29CC78DF00CC15CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C98C51CD29CC78DF00CC15CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C98C51D529CC79E100CC15CD /* CompositingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositingScreen.swift; sourceTree = "<group>"; };
+		C98C51D729CC79F900CC15CD /* CompositionConfigurationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionConfigurationCell.swift; sourceTree = "<group>"; };
+		C98C51DC29CC867900CC15CD /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		C993628729D5DA7600D99946 /* SongResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongResponse.swift; sourceTree = "<group>"; };
+		C993628929D6765900D99946 /* ParametersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersList.swift; sourceTree = "<group>"; };
+		C993628B29D686F300D99946 /* TTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTButton.swift; sourceTree = "<group>"; };
+		C9BB338029D7744F008FED97 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +69,108 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98C51DB29CC7B1E00CC15CD /* WrappingHStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C91BD45529D3587A003201CF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C91BD45929D36F73003201CF /* DTO */,
+				C91BD45329D35876003201CF /* API.swift */,
+				C91BD45C29D36FA8003201CF /* NetworkProvider.swift */,
+				C91BD46029D4AD7B003201CF /* DataConvertible.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C91BD45629D35E5A003201CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C91BD45729D35E68003201CF /* Song.swift */,
+				C91BD45E29D4AA9A003201CF /* AvailableParams.swift */,
+				C91BD46929D4B193003201CF /* Empty.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C91BD45929D36F73003201CF /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				C91BD45A29D36F94003201CF /* SongConfig.swift */,
+				C993628729D5DA7600D99946 /* SongResponse.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		C91BD46229D4AEC2003201CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C98C51D529CC79E100CC15CD /* CompositingScreen.swift */,
+				C98C51D729CC79F900CC15CD /* CompositionConfigurationCell.swift */,
+				C98C51DC29CC867900CC15CD /* GradientBackground.swift */,
+				C9669A5929CCE1CB00953C16 /* AttributeCell.swift */,
+				C9BB338029D7744F008FED97 /* ErrorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C91BD46329D4AECA003201CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C91BD46729D4AFD7003201CF /* CompositingScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C91BD46429D4AEE6003201CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C91BD46529D4AEF1003201CF /* CompositingScreenData.swift */,
+				C91BD47429D51925003201CF /* CompositionOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C91BD46B29D50E66003201CF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C98C51D429CC79C400CC15CD /* CompositingScreen */,
+				C91BD46C29D50E70003201CF /* ReviewScreeen */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		C91BD46C29D50E70003201CF /* ReviewScreeen */ = {
+			isa = PBXGroup;
+			children = (
+				C91BD47129D50F78003201CF /* ViewModel */,
+				C91BD47629D51EEB003201CF /* View */,
+			);
+			path = ReviewScreeen;
+			sourceTree = "<group>";
+		};
+		C91BD47129D50F78003201CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C91BD47229D50F87003201CF /* ReviewScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C91BD47629D51EEB003201CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C91BD46F29D50F2D003201CF /* ReviewScreen.swift */,
+				C993628929D6765900D99946 /* ParametersList.swift */,
+				C993628B29D686F300D99946 /* TTButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C98C51BA29CC78DE00CC15CD = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +190,14 @@
 		C98C51C529CC78DE00CC15CD /* TuneTitans */ = {
 			isa = PBXGroup;
 			children = (
+				C91BD45629D35E5A003201CF /* Model */,
+				C91BD45529D3587A003201CF /* API */,
+				C91BD46B29D50E66003201CF /* Screen */,
 				C98C51C629CC78DE00CC15CD /* TuneTitansApp.swift */,
 				C98C51C829CC78DE00CC15CD /* ContentView.swift */,
 				C98C51CA29CC78DF00CC15CD /* Assets.xcassets */,
 				C98C51CC29CC78DF00CC15CD /* Preview Content */,
+				C9669A5729CCD63600953C16 /* Constant.swift */,
 			);
 			path = TuneTitans;
 			sourceTree = "<group>";
@@ -65,6 +208,16 @@
 				C98C51CD29CC78DF00CC15CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C98C51D429CC79C400CC15CD /* CompositingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C91BD46429D4AEE6003201CF /* Model */,
+				C91BD46329D4AECA003201CF /* ViewModel */,
+				C91BD46229D4AEC2003201CF /* View */,
+			);
+			path = CompositingScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +236,9 @@
 			dependencies = (
 			);
 			name = TuneTitans;
+			packageProductDependencies = (
+				C98C51DA29CC7B1E00CC15CD /* WrappingHStack */,
+			);
 			productName = TuneTitans;
 			productReference = C98C51C329CC78DE00CC15CD /* TuneTitans.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +267,9 @@
 				Base,
 			);
 			mainGroup = C98C51BA29CC78DE00CC15CD;
+			packageReferences = (
+				C98C51D929CC7B1E00CC15CD /* XCRemoteSwiftPackageReference "WrappingHStack" */,
+			);
 			productRefGroup = C98C51C429CC78DE00CC15CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +296,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91BD45829D35E68003201CF /* Song.swift in Sources */,
+				C91BD46829D4AFD7003201CF /* CompositingScreenViewModel.swift in Sources */,
+				C98C51DD29CC867900CC15CD /* GradientBackground.swift in Sources */,
+				C993628829D5DA7600D99946 /* SongResponse.swift in Sources */,
+				C91BD46629D4AEF1003201CF /* CompositingScreenData.swift in Sources */,
+				C91BD45B29D36F94003201CF /* SongConfig.swift in Sources */,
+				C91BD46A29D4B193003201CF /* Empty.swift in Sources */,
+				C993628C29D686F300D99946 /* TTButton.swift in Sources */,
+				C9BB338129D7744F008FED97 /* ErrorView.swift in Sources */,
 				C98C51C929CC78DE00CC15CD /* ContentView.swift in Sources */,
+				C91BD47029D50F2D003201CF /* ReviewScreen.swift in Sources */,
+				C91BD47329D50F87003201CF /* ReviewScreenViewModel.swift in Sources */,
+				C98C51D829CC79F900CC15CD /* CompositionConfigurationCell.swift in Sources */,
+				C91BD46129D4AD7B003201CF /* DataConvertible.swift in Sources */,
 				C98C51C729CC78DE00CC15CD /* TuneTitansApp.swift in Sources */,
+				C98C51D629CC79E100CC15CD /* CompositingScreen.swift in Sources */,
+				C91BD45D29D36FA8003201CF /* NetworkProvider.swift in Sources */,
+				C9669A5A29CCE1CB00953C16 /* AttributeCell.swift in Sources */,
+				C91BD45F29D4AA9A003201CF /* AvailableParams.swift in Sources */,
+				C91BD45429D35876003201CF /* API.swift in Sources */,
+				C9669A5829CCD63600953C16 /* Constant.swift in Sources */,
+				C91BD47529D51925003201CF /* CompositionOption.swift in Sources */,
+				C993628A29D6765900D99946 /* ParametersList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +448,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TuneTitans/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -296,6 +477,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TuneTitans/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -337,6 +519,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C98C51D929CC7B1E00CC15CD /* XCRemoteSwiftPackageReference "WrappingHStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ksemianov/WrappingHStack";
+			requirement = {
+				kind = exactVersion;
+				version = 0.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C98C51DA29CC7B1E00CC15CD /* WrappingHStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C98C51D929CC7B1E00CC15CD /* XCRemoteSwiftPackageReference "WrappingHStack" */;
+			productName = WrappingHStack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C98C51BB29CC78DE00CC15CD /* Project object */;
 }

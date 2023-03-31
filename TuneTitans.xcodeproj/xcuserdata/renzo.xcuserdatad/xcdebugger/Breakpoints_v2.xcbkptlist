@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8B786A90-B365-462D-B483-1C2EBA587AE9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79933032-D33B-437A-94E3-40E382CBAD2F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuneTitans/CompositingScreen/AttributeCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "makeBody(configuration:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B7B380E-15D7-4F17-A9ED-D29B257289DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuneTitans/Screen/ReviewScreeen/ViewModel/ReviewScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "songDidLoad(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A971C867-E9CA-48F2-8A1B-29F7AFF152F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuneTitans/Screen/ReviewScreeen/ViewModel/ReviewScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "handleError(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A971C867-E9CA-48F2-8A1B-29F7AFF152F8 - 4fc361083c214456"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for TuneTitans.ReviewScreenViewModel.handleError(Swift.Error) async -&gt; ()"
+                  moduleName = "TuneTitans"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renzo/Documents/TuneTitans/TuneTitans/Screen/ReviewScreeen/ViewModel/ReviewScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "A971C867-E9CA-48F2-8A1B-29F7AFF152F8 - 186ad5ed766753b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for TuneTitans.ReviewScreenViewModel.handleError(Swift.Error) async -&gt; ()"
+                  moduleName = "TuneTitans"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renzo/Documents/TuneTitans/TuneTitans/Screen/ReviewScreeen/ViewModel/ReviewScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "A971C867-E9CA-48F2-8A1B-29F7AFF152F8 - 178e1aa06d884858"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TuneTitans.ReviewScreenViewModel.handleError(Swift.Error) async -&gt; ()"
+                  moduleName = "TuneTitans"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renzo/Documents/TuneTitans/TuneTitans/Screen/ReviewScreeen/ViewModel/ReviewScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "A971C867-E9CA-48F2-8A1B-29F7AFF152F8 - fa8ac3387fb35beb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in TuneTitans.ReviewScreenViewModel.handleError(Swift.Error) async -&gt; ()"
+                  moduleName = "TuneTitans"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renzo/Documents/TuneTitans/TuneTitans/Screen/ReviewScreeen/ViewModel/ReviewScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D84B19A-D5F2-42D3-B858-4371407E70B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuneTitans/API/DataConvertible.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "toData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71F8A339-2EC9-424E-8A57-470BE626326F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuneTitans/API/DataConvertible.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "toData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29C0C678-0DDB-48DC-9AE1-3AFBB6D4935D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuneTitans/Screen/ReviewScreeen/ViewModel/ReviewScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "29C0C678-0DDB-48DC-9AE1-3AFBB6D4935D - 7995caf2a6d43a6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TuneTitans.ReviewScreenViewModel.load() -&gt; ()"
+                  moduleName = "TuneTitans"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renzo/Documents/TuneTitans/TuneTitans/Screen/ReviewScreeen/ViewModel/ReviewScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "29C0C678-0DDB-48DC-9AE1-3AFBB6D4935D - 40ed9f52f2a7eb31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) await resume partial function for closure #1 @Sendable () async -&gt; () in TuneTitans.ReviewScreenViewModel.load() -&gt; ()"
+                  moduleName = "TuneTitans"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renzo/Documents/TuneTitans/TuneTitans/Screen/ReviewScreeen/ViewModel/ReviewScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "29C0C678-0DDB-48DC-9AE1-3AFBB6D4935D - dba262ed293f7e55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TuneTitans.ReviewScreenViewModel.load() -&gt; ()"
+                  moduleName = "TuneTitans"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renzo/Documents/TuneTitans/TuneTitans/Screen/ReviewScreeen/ViewModel/ReviewScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
